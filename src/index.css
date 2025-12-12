@@ -1,7 +1,73 @@
-p {
-    font-family: 'Lato', sans-serif;
+@import "tailwindcss";
+
+@theme {
+    --color-header: #050505;
+    --color-Base-morada: #0F0B1E;
+    --color-azulluminoso: #06B6D4;
+    --color-moradoscuro: #A855F7;
+    --color-text-color: #f8fafc;
+    --color-gris: #9CA3AF;
+    --color-bordeui: #292348;
+    --color-Base: #020202;
+    --font-texto: 'Lato', sans-serif;
+    --font-titulo: 'Montserrat', sans-serif;
+    --font-space: "Space Grotesk", sans-serif;
+    --color-borde: #111111;
+    --color-nav: #cfd3d9;
+    --background-image-space-gradient: radial-gradient(circle at center, #1b1436 0%, #050505 100%);
 }
 
-h1 {
+/* Custom Utilities if needed, though they should be automatic now via theme variables */
+
+
+:root {
+    --Base: #050505;
+    --Base-morada: #0F0B1E;
+    --azulluminoso: #06B6D4;
+    --moradoscuro: #A855F7;
+    --text-color: #f8fafc;
+    --gris: #9CA3AF;
+    --bordeui: #292348;
+
+}
+
+/* 
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: var(--text-color);
+}
+/*  */
+
+
+h2 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+*/::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #292348;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4b2bee;
 }

@@ -25,7 +25,9 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer>© 2025 mi web</footer>
+      <footer className="text-center bg-[#0a0814] text-base text-text-color py-6 border-t-2 border-borde">
+        <p>{new Date().getFullYear()} © Creada para informar y practicar codigo por Jesus Diaz con NasaAPI</p>
+      </footer>
     </>
   )
 }

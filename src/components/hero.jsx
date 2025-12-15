@@ -11,7 +11,7 @@ export default function Hero() {
                 <img
                     src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=1193&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Galaxy Background"
-                    className="w-full h-full object-cover opacity-50"
+                    className="w-full h-full object-cover opacity-75"
                 />
             </div>
 

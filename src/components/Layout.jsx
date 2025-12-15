@@ -14,7 +14,9 @@ export default function Layout() {
           </div>
           <nav className="col-span-9 gap-4 flex justify-center">
             <Link to="/" className="font-texto text-nav self-center hover:text-text-color duration-500 hover:scale-105">Inicio</Link>
-            <Link to="/about" className="font-texto text-nav self-center hover:text-text-color duration-500 hover:scale-105">Galeria</Link>
+            <Link to="/exoplanetas" className="font-texto text-nav self-center hover:text-text-color duration-500 hover:scale-105">Exoplanetas</Link>
+            <Link to="/delDiafecha" className="font-texto text-nav self-center hover:text-text-color duration-500 hover:scale-105">Imagen del dia</Link>
+            <Link to="/Marte" className="font-texto text-nav self-center hover:text-text-color duration-500 hover:scale-105">Marte</Link>
           </nav>
         </div>
 

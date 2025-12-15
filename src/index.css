@@ -97,3 +97,9 @@ h3 {
 .card-hover:hover {
     transform: scale(1.05);
 }
+
+/* Modificar el icono del calendario a blanco */
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
